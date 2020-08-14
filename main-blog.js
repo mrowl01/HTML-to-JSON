@@ -1,6 +1,8 @@
 var cheerio = require('cheerio');
 var fs = require('fs');
 
+//needs output-blog folder
+//needs to reference folder where the blog html files are
 // process files found in the 'input' folder
 fs.readdir('./deal-lawyer-blog/', 'utf8', findHtmlFiles);
 
